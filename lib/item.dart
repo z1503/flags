@@ -37,7 +37,7 @@ class MyGridViewPage extends StatelessWidget {
         title: const Text('GridView country'),
       ),
       body: GridView.count(
-        crossAxisCount: 2,
+        crossAxisCount: 1,
         children: List.generate(items.length, (index) {
           return GridItem(
             item: items[index],

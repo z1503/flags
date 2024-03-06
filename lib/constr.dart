@@ -15,12 +15,13 @@ class GridItem extends StatelessWidget {
         color: Colors.blue[100],
         borderRadius: BorderRadius.circular(10.0),
       ),
-      child: Column(
+      child: Column( 
+        
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Image.asset(
             item.flag,
-            width: 200,
+            width: 500,
             fit: BoxFit.cover,
           ),
           const SizedBox(height: 10),
